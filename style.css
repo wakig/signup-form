@@ -103,5 +103,45 @@ html, body {
 }
 
 .right {
+    display: flex;
+    flex-direction: column;
     flex: 2;
+}
+
+.rtop {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: end;
+}
+
+.rmiddle {
+    flex: 1;
+}
+
+.rbottom {
+    flex: 1;
+    /* padding-bottom: 10px; */
+}
+
+.createaccount {
+    color: white;
+    background-color: #596D48;
+    border-style: none;
+    box-shadow: none;
+}
+
+input {
+    border-color: #E5E7EB;
+    border-style: solid;
+    border-radius: 3px;
+    border-width: 1px;
+    box-shadow: none;
+}
+
+input:focus {
+    border: 1px solid blue;
+    outline: none;
+    /* box-shadow: black; */
+    box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.2);
 }
