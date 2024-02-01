@@ -17,7 +17,7 @@
                 </div>
             </div>
             <div class="lbottom">
-                <p>Photo by Halle West on Unsplash</p>
+                <p>Photo by <a href='https://unsplash.com/@haliewestphoto'>Halie West</a> on <a href='https://unsplash.com/'>Unsplash</a></p>
             </div>
         </div>
         <div class="right">
@@ -25,39 +25,47 @@
                 <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.</p>
                 <p>You <em>know</em> you want to.</p>
             </div>
-            <div class="rmiddle">
-                <h1>Let's do this!</h1>
-                <form method="post">
+            <form action="index.html" method="get">
+                <div class="rmiddle">
+                    <h1>Let's do this!</h1>
                     <div>
                         <label for="first_name">FIRST NAME</label>
+                        <br>
                         <input type="text" name="first_name" id="first_name">
                     </div>
                     <div>
                         <label for="last_name">LAST NAME</label>
+                        <br>
                         <input type="text" name="last_name" id="last_name">
                     </div>
                     <div>
                         <label for="email">EMAIL</label>
+                        <br>
                         <input type="email" name="email" id="email">
                     </div>
                     <div>
                         <label for="phone">PHONE NUMBER</label>
+                        <br>
                         <input type="tel" name="phone" id="phone">
                     </div>
                     <div>
                         <label for="password">PASSWORD</label>
+                        <br>
                         <input type="password" name="password" id="password">
                     </div>
                     <div>
                         <label for="confirm_password">CONFIRM PASSWORD</label>
+                        <br>
                         <input type="password" name="confirm_password" id="confirm_password">
                     </div>
-                </form>
-            </div>
-            <div class="rbottom">
-                <button class="createaccount" type="submit">Create Account</button>
-                <p>Already have an account? Log in</p>
-            </div>
+                    <!-- <button type="submit">Submit</button> -->
+                </div>
+                <div class="rbottom">
+                    <!-- <input type="submit" value="Create Account"> -->
+                    <button class="createaccount" type="submit">Create Account</button>
+                    <p>Already have an account? <a href="index.html">Log in</a></p>
+                </div>
+            </form>
         </div>
     </div>
 </body>
