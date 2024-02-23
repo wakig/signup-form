@@ -151,6 +151,7 @@ input:focus {
 
 label {
     color: gray;
+    font-size: .5rem;
 }
 
 .lbottom a {
