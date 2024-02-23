@@ -157,3 +157,9 @@ label {
 .lbottom a {
     color: white;
 }
+
+.fieldrow1, .fieldrow2, .fieldrow3 {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
