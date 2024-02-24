@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
     <title>Sign-up Form</title>
 </head>
 <body>
@@ -34,36 +35,36 @@
                         <div>
                             <label for="first_name">FIRST NAME</label>
                             <br>
-                            <input type="text" name="first_name" id="first_name">
+                            <input type="text" name="first_name" id="first_name" required>
                         </div>
                         <div>
                             <label for="last_name">LAST NAME</label>
                             <br>
-                            <input type="text" name="last_name" id="last_name">
+                            <input type="text" name="last_name" id="last_name" required>
                         </div>
                     </div>
                     <div class="fieldrow2">
                         <div>
                             <label for="email">EMAIL</label>
                             <br>
-                            <input type="email" name="email" id="email">
+                            <input type="email" name="email" id="email" required>
                         </div>
                         <div>
                             <label for="phone">PHONE NUMBER</label>
                             <br>
-                            <input type="tel" name="phone" id="phone">
+                            <input type="tel" name="phone" id="phone" required>
                         </div>
                     </div>
                     <div class="fieldrow3">
                         <div>
                             <label for="password">PASSWORD</label>
                             <br>
-                            <input type="password" name="password" id="password">
+                            <input type="password" name="password" id="password" onChange="onChange()" required>
                         </div>
                         <div>
                             <label for="confirm_password">CONFIRM PASSWORD</label>
                             <br>
-                            <input type="password" name="confirm_password" id="confirm_password">
+                            <input type="password" name="confirm_password" id="confirm_password" onChange="onChange()" required>
                         </div>
                     </div>
                     <!-- <button type="submit">Submit</button> -->
