@@ -52,7 +52,7 @@
                         <div>
                             <label for="phone">PHONE NUMBER</label>
                             <br>
-                            <input type="tel" name="phone" id="phone" required>
+                            <input type="tel" onkeypress="return /[0-9]/i.test(event.key)" required>
                         </div>
                     </div>
                     <div class="fieldrow3">

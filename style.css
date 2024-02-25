@@ -163,3 +163,7 @@ label {
     flex-direction: row;
     gap: 50px;
 }
+
+input:focus:invalid {
+    border-color: red;
+}
